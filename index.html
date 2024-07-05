@@ -4,37 +4,70 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Victor</title>
+
+    <link rel="stylesheet" href="css/main.css">
+
+    <!-- fontes -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
 </head>
 <body>
-    <img src="img/foto_bio.jpg" height="200px" alt="Foto do Victor">
-    <h1>Olá, eu sou Victor!</h1>
+    <header>
+        <div id="ola">
+            <img src="img/foto_bio.jpg" alt="Foto do Victor">
+            <h1>Olá, eu sou Victor!</h1>
+        </div>
+    </header>
 
-    <hr>
-    <h2>Um pouco sobre mim</h2>
+    <main>
+        <div id="sobre-mim">
+            <h2>Um pouco sobre mim</h2>
 
-    <p>Tenho 36 anos, sou do Rio de Janeiro mas já morei em São Paulo e em Brasília! Minha família é espalhada pelo Brasil todo, então eu cresci viajando pelas cidades brasileiras.</p>
+            <p>Tenho 36 anos, sou do Rio de Janeiro mas já morei em São Paulo e em Brasília! Minha família é espalhada pelo Brasil todo, então eu cresci viajando pelas cidades brasileiras.</p>
 
-    <p>Alguns dos meus hobbies:</p>
+            <p>Alguns dos meus hobbies:</p>
 
-    <ul>
-        <li>Cinema (já fiz até curso de crítica de cinema!)</li>
-        <li>Jogos (digitais e de tabuleiro!)</li>
-        <li>Ler (não viajo sem meu Kindle)</li>
-        <li>Cozinhar (é uma terapia)</li>
-    </ul>
+            <ul>
+                <li>Cinema (já fiz até curso de crítica de cinema!)</li>
+                <li>Jogos (digitais e de tabuleiro!)</li>
+                <li>Ler (não viajo sem meu Kindle)</li>
+                <li>Cozinhar (é uma terapia)</li>
+            </ul>
+        </div>
 
-    <hr>
-    <h2>Minha carreira profissional e acadêmica</h2>
+        <div id="carreira">
+            <h2>Minha carreira profissional e acadêmica</h2>
 
-    <img src="img/eu_96.png" height="200px" alt="Eu em 1996 (8 anos) já com um computador">
-    <p>Eu estudei no Instituto Militar de Engenharia, e me formei em 2010. Na faculdade optei por fazer o curso de Engenharia Civil, e trabalhei bastante tempo nessa área, mas sempre gostei de computadores e tecnologia. Meu primeiro computador foi um Intel 386, e sempre gostei de configurar a máquina e entender como ele funcionava!</p>
+            <img src="img/eu_96.png" alt="Eu em 1996 (8 anos) já com um computador">
+            <p>Eu estudei no Instituto Militar de Engenharia, e me formei em 2010. Na faculdade optei por fazer o curso de Engenharia Civil, e trabalhei bastante tempo nessa área, mas sempre gostei de computadores e tecnologia. Meu primeiro computador foi um Intel 386, e sempre gostei de configurar a máquina e entender como ele funcionava!</p>
 
-    <p>Meu primeiro estágio foi em uma empresa de Engenharia Civil, mas foi como programador. A primeira linguagem que eu comecei a trabalhar foi com Visual Basic, mas já trabalhei com VBA, Python, C e algumas outras linguagens.</p>
+            <p>Meu primeiro estágio foi em uma empresa de Engenharia Civil, mas foi como programador. A primeira linguagem que eu comecei a trabalhar foi com Visual Basic, mas já trabalhei com VBA, Python, C e algumas outras linguagens.</p>
 
-    <p>Em 2015 eu tomei uma decisão de fazer uma migração de carreira, e em 2016 eu comecei o meu mestrado em Engenharia de Sistemas e Computação na COPPE/UFRJ, na trilha de Engenharia de Software Experimental. Daí eu já entrei no mercado de tecnologia, e passei por várias funções: analista de qualidade, Product Owner, dev, Tech Lead e Gerente de Engenharia.</p>
+            <p>Em 2015 eu tomei uma decisão de fazer uma migração de carreira, e em 2016 eu comecei o meu mestrado em Engenharia de Sistemas e Computação na COPPE/UFRJ, na trilha de Engenharia de Software Experimental. Daí eu já entrei no mercado de tecnologia, e passei por várias funções: analista de qualidade, Product Owner, dev, Tech Lead e Gerente de Engenharia.</p>
 
-    <p>Em paralelo, desde 2016 eu sou professor universitário, começando com aulas na área de Engenharia Civil e, nos últimos 5 anos, com disciplinas na área de computação, como Programação Estruturada, Programação Orientada a Objetos, Estruturas de Dados e Business Intelligence.</p>
+            <p>Em paralelo, desde 2016 eu sou professor universitário, começando com aulas na área de Engenharia Civil e, nos últimos 5 anos, com disciplinas na área de computação, como Programação Estruturada, Programação Orientada a Objetos, Estruturas de Dados e Business Intelligence.</p>
 
-    <p>Estou no <a href="http://www.inteli.edu.br">Inteli</a> desde maio de 2024, atuando na área de desenvolvimento de novos produtos, olhando para produtos acadêmicos, como pós-graduações e o curso de ADM Tech!</p>
+            <p>Estou no <a href="http://www.inteli.edu.br">Inteli</a> desde maio de 2024, atuando na área de desenvolvimento de novos produtos, olhando para produtos acadêmicos, como pós-graduações e o curso de ADM Tech!</p>
+        </div>
+    </main>
+
+    <footer>
+        <div id="contato">
+            <h2>Entre em contato</h2>
+
+            <ul>
+                <li><span>Email: </span>victor.machado@inteli.edu.br</li>
+                <li><span>LinkedIn: </span><a href="https://www.linkedin.com/in/victormachadodasilva/">@victormachadodasilva</a></li>
+            </ul>
+
+            <p>Ou envie uma mensagem!</p>
+
+            <form action="">
+                <textarea name="mensagem" rows="3" placeholder="Sua mensagem..."></textarea>
+                <input type="submit" value="Enviar mensagem">
+            </form>
+        </div>
+    </footer>
 </body>
 </html>

@@ -53,8 +53,10 @@ p, li {
     padding-bottom: 20px;
 }
 
-#sobre-mim img {
-    height: 150px;
+#sobre-mim .card {
+    height: 200px;
+    width: 150px;
+    margin: 0 auto;
 }
 
 #sobre-mim .card-body {
@@ -124,4 +126,61 @@ p, li {
     font-size: x-small;
     display: flex;
     justify-content: center;
+}
+
+@media(max-width: 425px) {
+
+    img {
+        float: none;
+        margin: 0 auto;
+    }
+
+    .titulo-principal {
+        padding-top: 20px;
+        text-align: center;
+        font-size: 24px;
+    }
+
+    #ola p {
+        font-size: 16px;
+    }
+
+    .titulo {
+        font-size: 16px;
+    }
+
+    #sobre-mim p {
+        font-size: 14px;
+    }
+
+    #hobbies .col-md-3 {
+        width: 50%;
+        margin-bottom: 30px;
+    }
+
+    #carreira p {
+        font-size: 16px;
+    }
+}
+
+@media(max-width: 768px) {
+    #ola p {
+        font-size: 16px;
+    }
+
+    #sobre-mim p {
+        font-size: 14px;
+    }
+
+    #carreira p {
+        font-size: 16px;
+    }
+
+    #carreira img {
+        height: 250px;
+    }
+
+    #contato form {
+        font-size: 14px;
+    }
 }

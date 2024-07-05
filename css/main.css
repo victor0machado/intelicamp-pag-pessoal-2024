@@ -6,12 +6,16 @@ body {
 
 img {
     display: block;
-    margin: 0 auto;
+    margin: 0;
+    float: right;
 }
 
-h2 {
-    font-size: large;
+.titulo {
+    font-size: 14px;
     text-transform: uppercase;
+    text-decoration: underline;
+    padding-bottom: 20px;
+    text-align: center;
 }
 
 p, li {
@@ -21,58 +25,87 @@ p, li {
 /* header */
 
 #ola {
-    background-color: beige;
-    padding: 10px 0px 10px 0px;
+    background-color: #2e2640;
+    padding: 40px 0px 40px 0px;
+    color: #fff;
 }
 
 #ola img {
-    height: 150px;
+    height: 200px;
 }
 
-h1 {
-    text-align: center;
-    font-size: x-large;
-    font-weight: 800;
-    text-decoration: underline;
+.titulo-principal {
+    text-align: left;
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+
+#ola p {
+    margin: 0;
+    font-size: 12px;
 }
 
 /* Sobre mim */
 
 #sobre-mim {
-    padding: 10px 30px 10px 30px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+#sobre-mim img {
+    height: 150px;
+}
+
+#sobre-mim .card-body {
+    height: 50px;
+    padding-top: 10px;
+}
+
+#sobre-mim p {
+    font-size: 10px;
 }
 
 /* Carreira */
 
 #carreira {
-    background-color: beige;
-    padding: 10px 30px 10px 30px;
+    background-color: #2e2640;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: #fff;
+}
+
+#carreira p {
+    font-size: x-small;
 }
 
 #carreira img {
-    height: 250px
+    height: 300px;
 }
 
 /* Rodapé */
 
 #contato {
-    background-color: #eee;
-    padding: 10px 30px 10px 30px;
+    background-color: #cccfd1;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 
-#contato h2 {
-    text-align: center;
-    font-size: small;
-    text-decoration: underline;
+#contato .titulo {
+    padding-bottom: 10px;
+    margin: 0;
 }
 
-#contato li {
-    list-style-type: none;
-    font-size: x-small;
+#contato .container {
+    width: 40%;
 }
 
 #contato span {
     font-weight: bold;
+}
+
+#contato i {
+    font-size: xx-large;
 }
 
 #contato p {
@@ -88,6 +121,7 @@ h1 {
 }
 
 #contato form {
+    font-size: x-small;
     display: flex;
     justify-content: center;
 }
